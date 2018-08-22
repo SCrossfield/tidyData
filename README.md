@@ -1,7 +1,12 @@
 # tidyData
 Getting and Cleaning Data Assignment
 
-run_analysis.R downloads a zip file of data as follows:
+This document explains what happens in the run_analysis.R
+
+Aim: The aime of run_analysis.R is to transform the data as described in the Getting and Cleaning Data Assignment
+
+run_analysis.R does the following:
+First, it downloads a zip file of data as follows:
 
 Title: Human Activity Recognition Using Smartphones Dataset, Version 1.0
 
@@ -9,10 +14,13 @@ Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 
 Reference: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-Aim: transform the data as described in the Getting and Cleaning Data Assignment
-First, required packages are installed (if not already) and loaded: tidyr, dplyr, reshape2
-Second, the relevant files from the source zip file are read into R
-Third, the steps defined in the assignment are undertaken:
+
+Second, required packages are installed (if not already) and loaded: tidyr, dplyr, reshape2
+
+Third, the relevant files from the source zip file are read into R
+
+Fourth, the steps defined in the assignment are undertaken:
+
 1. Merge the test and train files
   
   a) There are three relevant files per test and train dataset (containing the activity label, subject ID and measures). These are bound together and then the test and train dataset are merged.

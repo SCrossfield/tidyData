@@ -26,73 +26,138 @@ Name: variable
 
 Storage mode: character
 
-Description: variable measured (see below for further detail)
+Description: variable measured (see below for further detail on each value and its unit of measurement)
 
 Values: 1	frequencyBodyAccJerkMeanX
+
 2	frequencyBodyAccJerkMeanY
+
 3	frequencyBodyAccJerkMeanZ
+
 4	frequencyBodyAccJerkStdX
+
 5	frequencyBodyAccJerkStdY
+
 6	frequencyBodyAccJerkStdZ
+
 7	frequencyBodyAccMagMean
+
 8	frequencyBodyAccMagStd
+
 9	frequencyBodyAccMeanX
+
 10	frequencyBodyAccMeanY
+
 11	frequencyBodyAccMeanZ
+
 12	frequencyBodyAccStdX
+
 13	frequencyBodyAccStdY
+
 14	frequencyBodyAccStdZ
+
 15	frequencyBodyBodyAccJerkMagMean
+
 16	frequencyBodyBodyAccJerkMagStd
+
 17	frequencyBodyBodyGyroJerkMagMean
+
 18	frequencyBodyBodyGyroJerkMagStd
+
 19	frequencyBodyBodyGyroMagMean
+
 20	frequencyBodyBodyGyroMagStd
+
 21	frequencyBodyGyroMeanX
+
 22	frequencyBodyGyroMeanY
+
 23	frequencyBodyGyroMeanZ
+
 24	frequencyBodyGyroStdX
+
 25	frequencyBodyGyroStdY
+
 26	frequencyBodyGyroStdZ
+
 27	timeBodyAccJerkMagMean
+
 28	timeBodyAccJerkMagStd
+
 29	timeBodyAccJerkMeanX
+
 30	timeBodyAccJerkMeanY
+
 31	timeBodyAccJerkMeanZ
+
 32	timeBodyAccJerkStdX
+
 33	timeBodyAccJerkStdY
+
 34	timeBodyAccJerkStdZ
+
 35	timeBodyAccMagMean
+
 36	timeBodyAccMagStd
+
 37	timeBodyAccMeanX
+
 38	timeBodyAccMeanY
+
 39	timeBodyAccMeanZ
+
 40	timeBodyAccStdX
+
 41	timeBodyAccStdY
+
 42	timeBodyAccStdZ
+
 43	timeBodyGyroJerkMagMean
+
 44	timeBodyGyroJerkMagStd
+
 45	timeBodyGyroJerkMeanX
+
 46	timeBodyGyroJerkMeanY
+
 47	timeBodyGyroJerkMeanZ
+
 48	timeBodyGyroJerkStdX
+
 49	timeBodyGyroJerkStdY
+
 50	timeBodyGyroJerkStdZ
+
 51	timeBodyGyroMagMean
+
 52	timeBodyGyroMagStd
+
 53	timeBodyGyroMeanX
+
 54	timeBodyGyroMeanY
+
 55	timeBodyGyroMeanZ
+
 56	timeBodyGyroStdX
+
 57	timeBodyGyroStdY
+
 58	timeBodyGyroStdZ
+
 59	timeGravityAccMagMean
+
 60	timeGravityAccMagStd
+
 61	timeGravityAccMeanX
+
 62	timeGravityAccMeanY
+
 63	timeGravityAccMeanZ
+
 64	timeGravityAccStdX
+
 65	timeGravityAccStdY
+
 66	timeGravityAccStdZ
 
 4.
@@ -106,7 +171,8 @@ Min.: -0.998
 
 Max.: 0.975
 
-Further detail on the variable names is printed below. This is sourced from the zip file referenced in the README.md:
+
+Further detail on the variable names and their unit of measurement is printed below. This is sourced from the zip file referenced in the README.md:
 
 Feature Selection 
 =================

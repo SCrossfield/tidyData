@@ -14,14 +14,20 @@ Values and labels: 1 walking, 2 walking upstairs, 3 walking downstairs, 4 sittin
 
 2. 
 Name: subjectID
+
 Storage mode: integer
+
 Description: unique ID per subject
+
 Values: 1-30 (30 subjects)
 
 3.
 Name: variable
+
 Storage mode: character
+
 Description: variable measured (see below for further detail)
+
 Values: 1	frequencyBodyAccJerkMeanX
 2	frequencyBodyAccJerkMeanY
 3	frequencyBodyAccJerkMeanZ
@@ -91,12 +97,17 @@ Values: 1	frequencyBodyAccJerkMeanX
 
 4.
 Name: mean
+
 Storage mode: double
+
 Description: mean of the variable, per activity and subject
+
 Min.: -0.998
+
 Max.: 0.975
 
 Further detail on the variable names is printed below. This is sourced from the zip file referenced in the README.md:
+
 Feature Selection 
 =================
 

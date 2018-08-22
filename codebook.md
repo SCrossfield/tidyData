@@ -3,9 +3,13 @@ run_analysis.R contains the following four variables:
 
 1. 
 Name: activityLabel
+
 Storage mode: integer
+
 Factor with 6 levels
+
 Description: activity performed while the measurement was taken. 
+
 Values and labels: 1 walking, 2 walking upstairs, 3 walking downstairs, 4 sitting, 5 standing, 6 laying.
 
 2. 

@@ -3,9 +3,10 @@ Getting and Cleaning Data Assignment
 
 This document explains what happens in the run_analysis.R
 
-Aim: The aime of run_analysis.R is to transform the data as described in the Getting and Cleaning Data Assignment
+Aim: The aim of run_analysis.R is to transform the data as described in the Getting and Cleaning Data Assignment
 
 run_analysis.R does the following:
+
 First, it downloads a zip file of data as follows:
 
 Title: Human Activity Recognition Using Smartphones Dataset, Version 1.0
